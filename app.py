@@ -10,7 +10,8 @@ import pandas as pd
 import plotly.express as px
 
 # load dataset
-file_path = r"C:\Users\Anna\Documents\JOB SEARCHING\Portfolio & Tests\Air quality NY\Air_Quality_NY.csv"
+#file_path = r"C:\Users\Anna\Documents\JOB SEARCHING\Portfolio & Tests\Air quality NY\Air_Quality_NY.csv"
+file_path = "Air_Quality_NY.csv"
 df = pd.read_csv(file_path)
 
 # preparation
